@@ -1,0 +1,22 @@
+// Find the smallest element in an array
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <vector>
+#include <iostream>
+using namespace std;
+
+int smallest(vector <int> arr){
+    sort(arr.begin(),arr.end());
+        cout<<endl;
+
+    return arr[0];
+}
+int main(){
+    vector <int> a = {23,24,657,3,465,90,22,14,94};
+    vector <int> b = {0};
+    cout<<smallest(a);
+        cout<<smallest(b);
+
+    
+    return 0;
+}
